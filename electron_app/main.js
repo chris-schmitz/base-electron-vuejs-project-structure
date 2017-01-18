@@ -5,7 +5,9 @@ const config = require('./config')
 
 let win
 
-require('electron-reload')(__dirname)
+require('electron-reload')(__dirname,{
+    electron: path.resolve(__dirname, '..', 'node_modules', '.bin', 'electron')
+})
 
 
 
