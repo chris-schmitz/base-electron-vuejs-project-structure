@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+npm-debug.log
+packaged/*
+!packaged/.gitkeep
+app_icon/*
+!app_icon/.gitkeep
+electron_app/client.js*
